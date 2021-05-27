@@ -1,0 +1,8 @@
+---
+- name: YAML de prueba
+  hosts: compu 
+  tasks: 
+  - name: escribir archivo
+    copy:
+      content: "esta es una prueba"
+      dest: /tmp/prueba_ansible
