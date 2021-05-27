@@ -80,3 +80,5 @@ echo "</html>" >> $report_file
 
 #mutt -e 'set content_type=text/html' -s "Reporte 60-40 Grupo Modelo $fecha" juan.nocedal@t-systems.com < $report_file
 mutt -e 'set content_type=text/html' -s "Reporte 60-40 Grupo Modelo $fecha" esmeralda.cruz@t-systems.com < $report_file
+ooooo
+
