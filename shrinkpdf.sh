@@ -97,3 +97,5 @@ fi
 shrink "$IFILE" "$OFILE" "$res" || exit $?
 
 check_smaller "$IFILE" "$OFILE"
+
+#comment
